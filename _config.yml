@@ -1,10 +1,12 @@
 # Site settings
 title: Expeditio Dev Blog
 description: Follow the development of the open world roguelike Expeditio!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.auriosi.xyz" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: /:categories/:year/:month/:day/:title/ # how your post URLs will look
-
-# Theme settings
-# If you want to use a built-in theme like minima, uncomment and specify:
+baseurl: ""
+url: "https://blog.auriosi.xyz"
+permalink: /:categories/:year/:month/:day/:title/
 theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
