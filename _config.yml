@@ -4,7 +4,7 @@ description: Follow the development of the open world roguelike Expeditio!
 baseurl: ""
 url: "https://blog.auriosi.xyz"
 permalink: /:categories/:year/:month/:day/:title/
-theme: minima
+theme: cayman
 
 plugins:
   - jekyll-feed
